@@ -6,6 +6,8 @@ package yb.ecp.fast.dto;
 public class AuthInfoDTO {
     private String authId;
     private String verifyCode;
+    private String authName;
+
 
     public String getAuthId() {
         return authId;
